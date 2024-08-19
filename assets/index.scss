@@ -117,3 +117,16 @@ ul {
         border: none;
     }
 }
+.promo {
+    margin-top: 78px;
+    &-wrapper {
+        font-size: 63px;
+    }
+    &-image {
+        margin-top: 65px;
+        height: 100px;
+    }
+    p{
+        font-size: 18px;
+    }
+}

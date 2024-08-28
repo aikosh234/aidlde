@@ -69,9 +69,33 @@ ul {
     &-info {
       width: calc(100% - (50% + 108px));
     }
-    &-img{
-        display: flex;
-        flex-wrap: wrap;
+    .hero-img { 
+        display: flex; 
+        flex-wrap: wrap; 
+    } 
+ 
+    .hero-img { 
+        width: 53%; 
+    } 
+ 
+    .position__relative { 
+        position: relative; 
+    } 
+ 
+    .smile { 
+        position: absolute; 
+    } 
+ 
+    .smile__primary{ 
+        top: -31%; 
+        left: -45%; 
+        z-index: 2; 
+    } 
+ 
+    .smile__secondary{ 
+        top: -30%; 
+        z-index: 2; 
+        right: -30%; 
     }
    
 }
@@ -124,9 +148,12 @@ ul {
     }
     &-image {
         margin-top: 65px;
-        height: 100px;
     }
     p{
         font-size: 18px;
     }
 }
+
+
+
+
